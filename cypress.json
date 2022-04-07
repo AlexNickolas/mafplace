@@ -1,0 +1,18 @@
+{
+    "viewportHeight": 1000,
+    "viewportWidth": 1280,
+    "videoUploadOnPasses": false,
+    "defaultCommandTimeout": 8000,
+    "chromeWebSecurity": false,
+    "integrationFolder":"cypress/specs",
+    "screenshotsFolder":"cypress/temp/screenshots",
+    "videosFolder":"cypress/temp/videos",
+    "fixturesFolder":"cypress/data",
+    "reporter": "junit",
+    "baseUrl": "http://qa.maf.place",
+    "reporterOptions": {
+      "mochaFile": "cypress/temp/reports/report-[hash].xml",
+      "toConsole": true
+    },
+    "watchForFileChanges": false
+  }

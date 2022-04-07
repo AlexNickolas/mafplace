@@ -1,0 +1,16 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec 'cypress/specs/regression/*' --browser=chrome",
+    "cy": "npx cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.5.2"
+  },
+  "description": ""
+}
