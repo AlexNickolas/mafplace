@@ -1,4 +1,3 @@
-
 describe("login page elements", () => {
   before(() => {
     cy.visit("/");
@@ -12,7 +11,8 @@ describe("login page elements", () => {
       .get("#logo")
       .should("have.css", "height", `${height * 0.3}px`)
       .and("have.css", "max-width", "100%")
-      .and("have.css", "text-align", "center");
+      .and("have.css", "text-align", "center")
+      .and("should", "be.visible");
   });
 
   it("should have email field", () => {
